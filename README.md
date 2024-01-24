@@ -1,7 +1,7 @@
 # Dulaurier dataset
 Ground-truth of the Dulaurier project (HTR of Armenian manuscripts).
 
-The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier), sponsored by the BnF Datalab (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (University of Louvain).
+The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier), sponsored by the [BnF Datalab](https://www.bnf.fr/fr/bnf-datalab) (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (University of Louvain).
 
 The project involves the automatic transcription of 14 manuscripts from the Dulaurier collection at the BnF (around 3.600 images), as well as the automatic tagging of these texts (identification of proper nouns, lemmatisation, POS). The transcriptions are available on Gallica and searchable in the GREgoRI online corpora. Texts are focused on medieval Armenian historiography (e.g. Łevond, Movsēs Kalankatuac'i, Kirakos Ganjakec'i , etc.).
 
@@ -70,6 +70,7 @@ With this dataset, we reach a mean accuracy of good recognition 98,56% (and 92,9
     <img src="docs/img/accuracy-mss.png"/>
     <figcaption>Accuracy per manuscript with models trained with this dataset</figcaption>
 </figure>
+
 
 For now, processed texts have been analyzed (lemmatisation and POS-tagging) and are searchable on [GREgORI interfaces](https://v2.gregoriproject.com) (Ancient Armenian Corpus). Results are linked to [Gallica](https://gallica.bnf.fr) and [Calfa dictionaries](https://dictionary.calfa.fr). Proofreading will be carried out in 2024.
 
