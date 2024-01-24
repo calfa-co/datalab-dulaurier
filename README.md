@@ -18,11 +18,11 @@ Images consist in scanned microfilms. Four hands are representend (mainly Dulaur
 
 <figure>
     <img src="docs/img/dulaurier-project-mss.jpg"/>
-    <figcaption>ms. Arm. 226 (p. 55), ms. Arm. 231 (p. 126), and ms. Arm. 217 (p. 81) — Gallica, BnF</figcaption>
+    <figcaption><i>ms. Arm. 226 (p. 55), ms. Arm. 231 (p. 126), and ms. Arm. 217 (p. 81) — Gallica, BnF</i></figcaption>
 </figure>
 
 
-## Images
+### Images
 BnF Images are available through its IIIF server. For the list of IDs (images and documents), see the `list-images.tsv` file. To request an image, please use the following URL template:
 
 ```
@@ -51,7 +51,6 @@ We provide for each image a pageXML file containing three level of information:
 ```
 
 Annotations have been made on the [Calfa Vision platform](https://vision.calfa.fr), a free web-based annotation tool for documents and images designed for Oriental scripts.
-
 The transcription is faithful to the text present in the image, including when the word is misspelled.
 We do not follow the *scriptio continua* of Armenian manuscripts and we re-establish a separation between words. We expand abbreviations and ideograms used in the manuscripts, by using brackets, to allow keyword search and abbreviations understanding. For instance:
 
@@ -68,7 +67,7 @@ With this dataset, we reach a mean accuracy of good recognition 98,56% (and 92,9
 
 <figure>
     <img src="docs/img/accuracy-mss.png"/>
-    <figcaption>Accuracy per manuscript with models trained with this dataset</figcaption>
+    <figcaption><i>Accuracy per manuscript with models trained with this dataset</i></figcaption>
 </figure>
 
 
@@ -86,6 +85,10 @@ Please find below related publications to this project or to HTR / Text Analysis
 * Kindt, B., & Kepeklian, G. (2022, June). Analyse Automatique de l'Ancien Arménien. Évaluation d'une méthode hybride «dictionnaire» et «réseau de neurones» sur un Extrait de l'Adversus Haereses d'Irénée de Lyon. In Proceedings of the Workshop on Processing Language Variation: Digital Armenian (DigitAm) within the 13th Language Resources and Evaluation Conference (pp. 13-20). [see on ACL](https://aclanthology.org/2022.digitam-1.3.pdf)
 
 * Vidal-Gorène, C., Dupin, B., Decours-Perez, A., & Riccioli, T. (2021). A modular and automated annotation platform for handwritings: evaluation on under-resourced languages. In Document Analysis and Recognition–ICDAR 2021: 16th International Conference, Lausanne, Switzerland, September 5–10, 2021, Proceedings, Part III 16 (pp. 507-522). Springer International Publishing.
+
+## Related dataset
+
+A dataset of stamps and seals, produced within the scope of this project and using layout analysis models trained with this dataset, has been released on [Zenodo](https://zenodo.org/records/10548599).
 
 ## Acknowledgments
 
