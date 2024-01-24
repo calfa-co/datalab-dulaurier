@@ -17,7 +17,7 @@ Dataset contains 42 images, for a total of:
 Images consist in scanned microfilms. Four hands are representend (mainly Dulaurier hand and hands of his students).
 
 <figure>
-    <img src="https://github.com/calfa-co/datalab-dulaurier/docs/img/dulaurier-project-mss.jpg"/>
+    <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/img/dulaurier-project-mss.jpg"/>
     <figcaption>ms. Arm. 226 (p. 55), ms. Arm. 231 (p. 126), and ms. Arm. 217 (p. 81) — Gallica, BnF</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Preliminary results have been presentend at the Bibliothèque nationale de Franc
 With this dataset, we reach a mean accuracy of good recognition 98,56% (and 92,9% of good reading of abbreviations).
 
 <figure>
-    <img src="https://github.com/calfa-co/datalab-dulaurier/docs/img/accuracy-mss.png"/>
+    <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/img/accuracy-mss.png"/>
     <figcaption>Accuracy per manuscript with models trained with this dataset</figcaption>
 </figure>
 
@@ -90,4 +90,4 @@ Please find below related publications to this project or to HTR / Text Analysis
 
 This work was carried out with the support of the BnF Datalab, in partnership with the GREgORI project and ANR DALiH.
 
-<img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/bnf.png" width="15%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/humanum.png" width="8%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/calfa.png" width="8%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/gregori.png" width="23%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/ucl.png" width="30%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/docs/logos/dalih.png" width="15%"/>
+<img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/bnf.png" width="15%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/humanum.png" width="8%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/calfa.png" width="8%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/gregori.png" width="23%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/ucl.png" width="30%"/> <img src="https://github.com/calfa-co/datalab-dulaurier/tree/main/docs/logos/dalih.png" width="15%"/>
