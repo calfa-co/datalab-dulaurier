@@ -1,9 +1,13 @@
 # Dulaurier dataset
 Ground-truth of the Dulaurier project (HTR of Armenian manuscripts).
 
+<<<<<<< HEAD
 The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier) led by [Calfa](https://calfa.fr) and sponsored by the BnF Datalab (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (University of Louvain).
+=======
+The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier), sponsored by the [BnF Datalab](https://www.bnf.fr/fr/bnf-datalab) (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (UCLouvain, Belgium; CIOL Institut orientaliste).
+>>>>>>> 0158266b9b76852d961f5d9741cb2e09b7ad7af5
 
-The project involves the automatic transcription of 14 manuscripts from the Dulaurier collection at the BnF (around 3.600 images), as well as the automatic tagging of these texts (identification of proper nouns, lemmatisation, POS). The transcriptions are available on Gallica and searchable in the GREgoRI online corpora. Texts are focused on medieval Armenian historiography (e.g. Łevond, Movsēs Kalankatuac'i, Kirakos Ganjakec'i , etc.).
+The project involves the automatic transcription of 14 manuscripts from the Dulaurier collection at the BnF (around 3.600 images), as well as the automatic tagging of these texts (identification of proper nouns, lemmatisation, POS). Manuscripts are available on Gallica. Transcribed texts (available and searchable online) are part of the Armenian corpus of the GREgORI Project. Texts are focused on medieval Armenian historiography (e.g. Łevond, Movsēs Kalankatuac'i, Kirakos Ganjakec'i , etc.).
 
 ## Dataset composition
 
@@ -18,11 +22,11 @@ Images consist in scanned microfilms. Four hands are representend (mainly Dulaur
 
 <figure>
     <img src="docs/img/dulaurier-project-mss.jpg"/>
-    <figcaption>ms. Arm. 226 (p. 55), ms. Arm. 231 (p. 126), and ms. Arm. 217 (p. 81) — Gallica, BnF</figcaption>
+    <figcaption><i>ms. Arm. 226 (p. 55), ms. Arm. 231 (p. 126), and ms. Arm. 217 (p. 81) — Gallica, BnF</i></figcaption>
 </figure>
 
 
-## Images
+### Images
 BnF Images are available through its IIIF server. For the list of IDs (images and documents), see the `list-images.tsv` file. To request an image, please use the following URL template:
 
 ```
@@ -51,7 +55,6 @@ We provide for each image a pageXML file containing three level of information:
 ```
 
 Annotations have been made on the [Calfa Vision platform](https://vision.calfa.fr), a free web-based annotation tool for documents and images designed for Oriental scripts.
-
 The transcription is faithful to the text present in the image, including when the word is misspelled.
 We do not follow the *scriptio continua* of Armenian manuscripts and we re-establish a separation between words. We expand abbreviations and ideograms used in the manuscripts, by using brackets, to allow keyword search and abbreviations understanding. For instance:
 
@@ -68,8 +71,9 @@ With this dataset, we reach a mean accuracy of good recognition of 98,56% (and 9
 
 <figure>
     <img src="docs/img/accuracy-mss.png"/>
-    <figcaption>Accuracy per manuscript with models trained with this dataset</figcaption>
+    <figcaption><i>Accuracy per manuscript with models trained with this dataset</i></figcaption>
 </figure>
+
 
 For now, processed texts have been analyzed (lemmatisation and POS-tagging) and are searchable on [GREgORI interfaces](https://v2.gregoriproject.com) (Ancient Armenian Corpus). Results are linked to [Gallica](https://gallica.bnf.fr) and [Calfa dictionaries](https://dictionary.calfa.fr). Proofreading will be carried out in 2024.
 
@@ -85,6 +89,10 @@ Please find below related publications to this project or to HTR / Text Analysis
 * Kindt, B., & Kepeklian, G. (2022, June). Analyse Automatique de l'Ancien Arménien. Évaluation d'une méthode hybride «dictionnaire» et «réseau de neurones» sur un Extrait de l'Adversus Haereses d'Irénée de Lyon. In Proceedings of the Workshop on Processing Language Variation: Digital Armenian (DigitAm) within the 13th Language Resources and Evaluation Conference (pp. 13-20). [see on ACL](https://aclanthology.org/2022.digitam-1.3.pdf)
 
 * Vidal-Gorène, C., Dupin, B., Decours-Perez, A., & Riccioli, T. (2021). A modular and automated annotation platform for handwritings: evaluation on under-resourced languages. In Document Analysis and Recognition–ICDAR 2021: 16th International Conference, Lausanne, Switzerland, September 5–10, 2021, Proceedings, Part III 16 (pp. 507-522). Springer International Publishing.
+
+## Related dataset
+
+A dataset of stamps and seals, produced within the scope of this project and using layout analysis models trained with this dataset, has been released on [Zenodo](https://zenodo.org/records/10548599).
 
 ## Acknowledgments
 
