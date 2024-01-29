@@ -1,11 +1,7 @@
 # Dulaurier dataset
 Ground-truth of the Dulaurier project (HTR of Armenian manuscripts).
 
-<<<<<<< HEAD
-The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier) led by [Calfa](https://calfa.fr) and sponsored by the BnF Datalab (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (University of Louvain).
-=======
-The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier), sponsored by the [BnF Datalab](https://www.bnf.fr/fr/bnf-datalab) (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (UCLouvain, Belgium; CIOL Institut orientaliste).
->>>>>>> 0158266b9b76852d961f5d9741cb2e09b7ad7af5
+The dataset has been collated within the scope of the [Dulaurier project](https://calfa.fr/blog/39) (Valorisation numérique du fonds Dulaurier) led by [Calfa](https://calfa.fr) and sponsored by the [BnF Datalab](https://www.bnf.fr/fr/bnf-datalab) (call for projects 2022-2023), in partnership with [GREgORI](https://uclouvain.be/fr/instituts-recherche/incal/ciol/gregori-project.html) (UCLouvain, Belgium; CIOL Institut orientaliste).
 
 The project involves the automatic transcription of 14 manuscripts from the Dulaurier collection at the BnF (around 3.600 images), as well as the automatic tagging of these texts (identification of proper nouns, lemmatisation, POS). Manuscripts are available on Gallica. Transcribed texts (available and searchable online) are part of the Armenian corpus of the GREgORI Project. Texts are focused on medieval Armenian historiography (e.g. Łevond, Movsēs Kalankatuac'i, Kirakos Ganjakec'i , etc.).
 
