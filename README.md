@@ -73,6 +73,45 @@ With this dataset, we reach a mean accuracy of good recognition of 98,56% (and 9
 
 For now, processed texts have been analyzed (lemmatisation and POS-tagging) and are searchable on [GREgORI interfaces](https://v2.gregoriproject.com) (Ancient Armenian Corpus). Results are linked to [Gallica](https://gallica.bnf.fr) and [Calfa dictionaries](https://dictionary.calfa.fr). Proofreading will be carried out in 2024.
 
+## Transcription guidelines
+
+See : Chahan Vidal-Gorène, Aliénor Decours-Perez, Anahide Kasparian, Ani Tanelian, Agnès Ohanian. Armenian HTR: State of the art, transcription guidelines and good practices. 2025. [⟨hal-05021697⟩](https://enc.hal.science/hal-05021697v1).
+
+## Related dataset
+
+A dataset of stamps and seals, produced within the scope of this project and using layout analysis models trained with this dataset, has been released on [Zenodo](https://zenodo.org/records/10548599).
+
+## How to cite
+
+To cite this dataset:
+
+```LaTeX
+@unpublished{vidalgorene:hal-05021697,
+  TITLE = {{Armenian HTR: State of the art, transcription guidelines and good practices}},
+  AUTHOR = {Vidal-Gor{\`e}ne, Chahan and Decours-Perez, Ali{\'e}nor and Kasparian, Anahide and Tanelian, Ani and Ohanian, Agn{\`e}s},
+  URL = {https://enc.hal.science/hal-05021697},
+  NOTE = {working paper or preprint},
+  YEAR = {2025},
+  KEYWORDS = {Handwritten Text Recognition ; Armenian Paleography ; HTR ; Historical Manuscripts ; Armenian ; Paleography ; Guidelines and recommendations},
+  PDF = {https://enc.hal.science/hal-05021697v1/file/Armenian_HTR_Guidelines.pdf},
+  HAL_ID = {hal-05021697},
+  HAL_VERSION = {v1},
+}
+```
+
+and:
+
+```LaTeX
+@incollection{vidal-gorene2025htr,
+  author       = {Vidal-Gor{\`e}ne, Chahan and Kasparian, Anahide and Tanelian, Ani and Ohanian, Agn{\`e}s},
+  title        = {HTR de l’arménien, état de l’art, difficultés et pratiques de transcription},
+  booktitle    = {Apprendre à Lire aux Machines},
+  editor       = {Chagué, Alix and Clérice, Thibault and Pinche, Ariane and Kiessling, Benjamin and Stokes, Peter and Romary, Laurent and Hodel, Tobias and Kermorvant, Christopher and Gabay, Simon and Levenson, Matthias and others},
+  pages        = {103--112},
+  year         = {2025},
+}
+
+```
 
 ## Further readings
 
@@ -85,10 +124,6 @@ Please find below related publications to this project or to HTR / Text Analysis
 * Kindt, B., & Kepeklian, G. (2022, June). Analyse Automatique de l'Ancien Arménien. Évaluation d'une méthode hybride «dictionnaire» et «réseau de neurones» sur un Extrait de l'Adversus Haereses d'Irénée de Lyon. In Proceedings of the Workshop on Processing Language Variation: Digital Armenian (DigitAm) within the 13th Language Resources and Evaluation Conference (pp. 13-20). [see on ACL](https://aclanthology.org/2022.digitam-1.3.pdf)
 
 * Vidal-Gorène, C., Dupin, B., Decours-Perez, A., & Riccioli, T. (2021). A modular and automated annotation platform for handwritings: evaluation on under-resourced languages. In Document Analysis and Recognition–ICDAR 2021: 16th International Conference, Lausanne, Switzerland, September 5–10, 2021, Proceedings, Part III 16 (pp. 507-522). Springer International Publishing.
-
-## Related dataset
-
-A dataset of stamps and seals, produced within the scope of this project and using layout analysis models trained with this dataset, has been released on [Zenodo](https://zenodo.org/records/10548599).
 
 ## Acknowledgments
 
